@@ -1,0 +1,174 @@
+html {
+    width: 77vw;
+    margin: 0 auto;
+    background-image: url(../backgrounds/weather.png)
+}
+
+body {
+    background-color: tomato;
+    margin-top: 0;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    border-bottom: 0.3rem dashed wheat;
+    font-size: 3rem;
+    color: gold;
+}
+
+main h2 {
+    font-size: 2rem;
+    margin-top: 0;
+    color: yellowgreen;
+}
+
+article section p {
+    font-size: 1.175rem;
+    padding-bottom: 1rem;
+}
+
+section span {
+    font-size: 1.175rem;
+}
+
+header span {
+    padding: 1rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 0;
+    border-bottom: 0.3rem dashed wheat;
+}
+
+article section {
+    padding-right: 2rem;
+    padding-left: 1rem;
+}
+
+article h2 {
+    padding-left: 2em;
+}
+
+aside {
+    text-align: center;
+}
+
+aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+aside li {
+    margin: 3.5em;
+}
+
+aside a {
+    border: 2px solid green;
+    border-radius: 1rem;
+    padding: 1em;
+    font-size: 1.2rem;
+    text-decoration: none;
+    color: royalblue;
+}
+
+aside a:hover {
+    background-color: wheat;
+}
+
+aside a:visited {
+    color: royalblue;
+}
+
+section div input {
+    display: block;
+}
+
+section div {
+    margin-bottom: 2vh;
+    padding-top: 1vh;
+}
+
+footer h2 {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 1em;
+    font-size: 2.8rem;
+    color: skyblue;
+    text-decoration: underline;
+}
+
+#first ul {
+    list-style-type: none;
+}
+
+#first ul{
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+}
+
+#first li {
+    margin-left: 7ch;
+    margin-right: 7ch;
+}
+
+#first a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    border: 1px solid black;
+    padding: 0.8ch;
+    border-radius: 1rem;
+    color: royalblue;
+}
+
+#first a:visited {
+    color: royalblue;
+}
+
+#first a:hover {
+    background-color: wheat;
+}
+
+#second ul {
+    list-style-type: none;
+}
+
+#second ul{
+    display: flex;
+    padding-left: 0;
+    justify-content: center;
+}
+
+#second li {
+    margin-left: 7ch;
+    margin-right: 7ch;
+}
+
+#second a {
+    text-decoration: none;
+    font-size: 1.8rem;
+    border: 1px solid black;
+    padding: 0.8ch;
+    border-radius: 1rem;
+    color: royalblue;
+}
+
+#second a:hover {
+    background-color: wheat;
+}
+
+#second a:visited {
+    color: royalblue;
+}
+
+footer div {
+    border: 5px solid transparent;
+}
