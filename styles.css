@@ -5,14 +5,12 @@ html {
 }
 
 body {
-    display: flex;
     margin: 0;
-    min-height: 100vh;
 }
 
 .content {
-    margin: auto;
     background-color: tomato;
+    min-height: 100vh;
 }
 
 header h1 {
@@ -129,8 +127,8 @@ footer h2 {
 }
 
 #first li {
-    margin-left: 13ch;
-    margin-right: 13ch;
+    margin-left: 11ch;
+    margin-right: 11ch;
 }
 
 #first a {
@@ -161,8 +159,8 @@ footer h2 {
 }
 
 #second li {
-    margin-left: 13ch;
-    margin-right: 13ch;
+    margin-left: 11ch;
+    margin-right: 11ch;
 }
 
 #second a {
