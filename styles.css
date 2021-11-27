@@ -1,12 +1,18 @@
 html {
     width: 77vw;
+    background-image: url(../backgrounds/weather.png);
     margin: 0 auto;
-    background-image: url(../backgrounds/weather.png)
 }
 
 body {
+    display: flex;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.content {
+    margin: auto;
     background-color: tomato;
-    margin-top: 0;
 }
 
 header h1 {
@@ -62,12 +68,13 @@ aside {
 
 aside ul {
     list-style-type: none;
-    margin: 0;
     padding: 0;
 }
 
 aside li {
     margin: 3.5em;
+    width: 100%;
+    margin-left: 0;
 }
 
 aside a {
@@ -77,6 +84,12 @@ aside a {
     font-size: 1.2rem;
     text-decoration: none;
     color: royalblue;
+}
+
+@media ( max-width: 980px) {
+    aside a {
+        padding: 0.89em;
+    }
 }
 
 aside a:hover {
@@ -116,14 +129,14 @@ footer h2 {
 }
 
 #first li {
-    margin-left: 7ch;
-    margin-right: 7ch;
+    margin-left: 13ch;
+    margin-right: 13ch;
 }
 
 #first a {
     text-decoration: none;
     font-size: 1.8rem;
-    border: 1px solid black;
+    border: 2px solid green;
     padding: 0.8ch;
     border-radius: 1rem;
     color: royalblue;
@@ -148,14 +161,14 @@ footer h2 {
 }
 
 #second li {
-    margin-left: 7ch;
-    margin-right: 7ch;
+    margin-left: 13ch;
+    margin-right: 13ch;
 }
 
 #second a {
     text-decoration: none;
     font-size: 1.8rem;
-    border: 1px solid black;
+    border: 2px solid green;
     padding: 0.8ch;
     border-radius: 1rem;
     color: royalblue;
