@@ -1,0 +1,83 @@
+html {
+    background-image: url(just-waves.png);
+    padding-top: 0;
+}
+
+body {
+    width: 77vw;
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+header h1 {
+    text-align: center;
+    margin-top: 2.5ch;
+    font-size: 2.75rem;
+    color: palegoldenrod;
+    border-top: 0.5ch solid palegoldenrod;
+    border-bottom: 0.5ch solid palegoldenrod;
+    padding-top: 0.4ch;
+    padding-bottom: 0.4ch;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 9ch;
+    padding: 9ch;
+    padding-top: 2.5ch;
+    padding-bottom: 0;
+}
+
+img {
+    width: 15vw;
+    display: block;
+}
+
+div {
+    border: 2ch inset coral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+    line-height: 2;
+    text-decoration: underline;
+}
+
+.f {
+    background-color: pink;
+}
+
+.m {
+    background-color: springgreen;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer h1 {
+    border: 6px solid black;
+    padding: 1ch;
+}
+
+span {
+    margin-left: 10px;
+}
+
+.quest {
+    border: none;
+    font-size: 1.2rem;
+}
+
