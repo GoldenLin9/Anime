@@ -31,7 +31,7 @@ main {
     gap: 9ch;
     padding: 9ch;
     padding-top: 2.5ch;
-    padding-bottom: 0;
+    padding-bottom: 2.5ch;
 }
 
 img {
@@ -39,7 +39,7 @@ img {
     display: block;
 }
 
-div {
+.f, .m {
     border: 2ch inset coral;
     display: flex;
     align-items: center;
@@ -68,16 +68,23 @@ footer {
 }
 
 footer h1 {
-    border: 6px solid black;
+    border: 6px solid indianred;
     padding: 1ch;
 }
 
-span {
-    margin-left: 10px;
+#quest {
+    padding-left: 5vw;
 }
 
-.quest {
-    border: none;
-    font-size: 1.2rem;
+#quest h1 {
+    color: palegoldenrod;
 }
 
+footer a {
+    text-decoration: none;
+    color: navy;
+}
+
+footer a:visited {
+    color: navy;
+}
