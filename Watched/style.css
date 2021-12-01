@@ -1,0 +1,106 @@
+html {
+    background-image: url(beige-tiles.png);
+}
+
+body {
+    width: 77vw;
+    margin: 0 auto;
+    background-color: lightblue;
+    padding: 3vw;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-gap: 5vw;
+}
+
+#box {
+    display: grid;
+    grid-template-columns: 2fr 1.5fr;
+}
+
+h1 {
+    text-align: center;
+    font-size: 3vw;
+
+}
+
+video {
+    width: 19vw;
+}
+
+ol {
+    list-style-type: none;
+}
+
+section ul li {
+    font-size: 2vw;
+    margin: 1ch;
+}
+
+div ol {
+    padding: 0;
+    border: 0.2em solid red;
+    padding: 1ch;
+    font-size: 2vw;
+}
+
+section div {
+    position: sticky;
+    top: 5vh;
+}
+
+video {
+    margin-bottom: 5ch;
+}
+
+#class h2 {
+    font-size: 2vw;
+    color: firebrick;
+}
+
+#class h1 {
+    color: yellow;
+}
+
+#first {
+    color: limegreen;
+}
+
+#sec {
+    color: royalblue;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer h1 {
+    border: 6px solid indianred;
+    padding: 1ch;
+}
+
+footer a {
+    text-decoration: none;
+    color: navy;
+}
+
+footer a:visited {
+    color: navy;
+}
+
+a {
+    color: red;
+    font-weight: 700;
+    font-size: 1.5vw;
+}
+
+a:hover{
+    text-decoration: overline;
+}
+
+a:visited {
+    color: red;
+}
