@@ -1,0 +1,186 @@
+html {
+    background-image: url(bush.png);
+}
+
+body {
+    width: 77vw;
+    margin: 0 auto;
+    background-color: moccasin;
+}
+
+header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+header h1 {
+    text-align: center;
+    margin-right: 1ch;
+    margin-left: 1ch;
+    font-size: 3rem;
+    color: rgb(139, 53, 219);
+}
+
+.left-tri {
+    border-left: 2ch solid red;
+    border-top: 1ch solid transparent;
+    border-bottom: 1ch solid transparent;
+    width: 0; 
+    height: 0; 
+}
+
+.right-tri {
+    border-right: 2ch solid red;
+    border-top: 1ch solid transparent;
+    border-bottom: 1ch solid transparent;
+    width: 0; 
+    height: 0; 
+}
+
+main {
+    padding-left: 12ch;
+    padding-right: 10ch;
+    display: grid;
+}
+
+img {
+    height: 20ch;
+    margin-right: 3ch;
+    float: left;
+}
+
+main div h2 {
+    font-size: 2rem;
+    margin-top: 0.5ch;
+}
+
+main div a {
+    color: saddlebrown;
+    text-decoration: none;
+    border-bottom: 3px dashed saddlebrown;
+}
+
+main div a:hover {
+    border-bottom: 6px dotted saddlebrown;
+}
+
+main div a:visited {
+    color: saddlebrown;
+}
+
+.tri {
+    margin-top: 1ch;
+    margin-left: -5ch;
+    float: left;
+    width: 0;
+    height: 0;
+    border-left: 2ch solid steelblue;
+    border-top: 1ch solid transparent;
+    border-bottom: 1ch solid transparent;
+    position:sticky;
+    top:1ch;
+    left:1ch;
+}
+
+main div p {
+    font-size: 1.175rem;
+    line-height: 2;
+}
+
+.num{
+    float: left;
+    margin-left:-2.5ch;
+    margin-top:0.75ch;
+    position:sticky;
+    top:1ch;
+    left:1ch;
+    color: slateblue;
+}
+
+main + h1{
+    text-align: center;
+    font-size: 3rem;
+    color:#517985
+}
+
+footer h2 {
+    font-size: 2rem;
+}
+
+footer {
+    display:grid;
+    grid-template-columns: 2fr 2fr
+}
+
+#picked{
+    display: grid;
+    align-items:center;
+    justify-content: center;
+}
+input {
+    display: block;
+}
+
+#picked div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#picked div h2 {
+    border: 1ch solid lightblue;
+    padding: 0.5ch 2ch 0.5ch 2ch;
+}
+
+footer form {
+    padding-left: 5vw;
+}
+
+#picked h2 {
+    color: crimson;
+}
+footer h2 {
+    color: rgb(51, 102, 255)
+}
+
+form span {
+    font-weight: 500;
+}
+
+input[type=text] {
+    width: 75%;
+    padding: 1.5ch;
+    margin: 1ch 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+    background-color: #98d0df;
+    color: blue;
+    font-size: 0.75rem;
+}
+
+#but{
+    border: 6px solid indianred;
+    padding: 1ch;
+}
+
+footer a {
+    text-decoration: none;
+    color: navy;
+    border-bottom: none;
+}
+
+footer a:visited {
+    color: navy;
+}
+
+#back{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    grid-column-start:1;
+    grid-column-end:4;
+    margin-top: 5ch;
+}
