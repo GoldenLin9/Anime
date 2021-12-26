@@ -184,6 +184,7 @@ aside h1 {
     color: pink;
     font-family: Garamond, "Times New Roman";
     font-size: 2.5rem;
+    margin: 2ch auto;
 }
 
 aside div h1::before, aside div h1::after{
