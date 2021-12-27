@@ -127,19 +127,27 @@ footer span {
     font-family: Garamond, "Times New Roman";
 }
 
-
-
 #Q {
     justify-self: start;
     margin-left: 2vw;
 }
+
 input{
     border-radius: 5px;
     box-shadow: 0 0 5px pink;
     border: 2px solid pink;
     color: green;
     padding: 0.75ch 1ch;
-    margin-left: 1ch;
+}
+
+input[type="submit"]{
+    background-color: pink;
+    cursor: pointer;
+}
+
+input[type=submit]:hover{
+    background-color: hotpink;
+    color: black;
 }
 
 #Q h1{
@@ -160,6 +168,7 @@ aside{
     display: grid;
     justify-items: center;
     align-items: center;
+
 }
 
 aside div{
