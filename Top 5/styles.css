@@ -105,19 +105,24 @@ main + h1{
     color:#517985
 }
 
+
+
+
+
+
 footer h2 {
     font-size: 2rem;
 }
 
 footer {
     display:grid;
-    grid-template-columns: 2fr 2fr
+    grid-template-columns: 2fr 2fr;
+    justify-items: center;
+    align-items: center;
 }
 
 #picked{
-    display: grid;
-    align-items:center;
-    justify-content: center;
+    align-self: start;
 }
 input {
     display: block;
@@ -130,7 +135,7 @@ input {
 }
 
 #picked div h2 {
-    border: 1ch solid lightblue;
+    border: 0.5ch solid lightblue;
     padding: 0.5ch 2ch 0.5ch 2ch;
 }
 
@@ -141,16 +146,21 @@ footer h2 {
     color: rgb(51, 102, 255)
 }
 
+
+
+
+
+
+
+
+
+
 #f h3 {
     font-weight: 500;
-    font-size: 1.19rem;
+    font-size: 1.5rem;
     margin-bottom: 2ch;
     color: indigo;
-    margin-left: -1.5ch;
-}
-
-#f h2{
-    margin-left: -3ch;
+    margin-left: 1ch;
 }
 
 #f{
@@ -158,24 +168,24 @@ footer h2 {
 }
 
 form{
-    width: 75%;
-    display: flex;
+    width: 100%;
 }
 
 input[type=text]{
     width: 70%;
-    padding: 1.5ch;
+    padding: 1ch;
     box-sizing: border-box;
     border: 2px solid red;
     border-radius: 4px;
     background-color: #98d0df;
     color: blue;
-    font-size: 0.75rem;
+    font-size: 1.2rem;
 }
 
 input[type=submit]{
-    width: 25%;
-    margin-left: 1ch;
+    margin-top: 1ch;
+    width: fit-content;
+    padding: 0.5ch 1ch;
     border-radius: 4px;
     background-color: pink;
     color: rgb(102, 36, 36);
@@ -183,6 +193,12 @@ input[type=submit]{
     cursor: pointer;
     box-sizing: border-box;
 }
+
+
+
+
+
+
 
 #but{
     border: 6px solid indianred;
