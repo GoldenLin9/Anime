@@ -30,20 +30,20 @@ video {
     width: 19vw;
 }
 
-ol {
-    list-style-type: none;
-}
-
 section ul li {
     font-size: 2vw;
     margin: 1ch;
+    list-style-type: none;
 }
 
 div ol {
-    padding: 0;
-    border: 0.2em solid red;
-    padding: 1ch;
     font-size: 2vw;
+    margin: 0;
+    margin-left: 1ch;
+}
+
+#ratings{
+    border: 0.5em solid red;
 }
 
 section div {
